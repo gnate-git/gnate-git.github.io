@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+        <meta charset="utf-8">
+		<!-- <link rel="stylesheet" href="../node_modules/semantic-ui-css/semantic.css"> -->
+        <link rel="stylesheet" href="../css/semantic.min.css">
+	</head>
+	<body>
+
+		<div class="ui container">
+			<div class="ui sizer vertical segment">
+				<div class="ui large header"> Automated Broadcast System: </div>
+				<p>This is a hobby project I started on my own in 2020. I wanted to run an 'always up' broadcast.  I did not want to run a GUI application like OBS on my desktop.</p>
+                <p>To meet my self imposed requirments I created some micro-services to run on my FreeNAS machine. The micro-services inluding a metadata DB with API server, a python script to play videos, and a discord bot for users to interact with. </p>
+            </div>
+            <div class="ui sizer vertical segment">
+    			<img id="ABSImage" class="ui image"></img>
+    		</div>
+            <div class="ui sizer vertical segment">
+                <p>I run the DB, metadata API, and Discord bot in a docker-compose network of containers.  The player runs on a seperate Raspberry Pi connected to hardware for streaming video to RTSP services.  The project is still running locally 24/7, but due to bandwidth limits I'm not pushing the video stream to a host such as Twitch/Youtube.  If you'd like to see it in action just contact me.</p>
+            </div>
+		</div>
+
+	</body>
+    <footer>
+        <script src="../js/abs.js"></script>
+		<script src="../js/plugins.js"></script>
+        <script src="../js/vendor/modernizr-3.11.2.min.js"></script>
+    </footer>
+</html>

@@ -1,0 +1,20 @@
+{
+  "name": "laowllol.github.io",
+  "version": "0.2.0",
+  "description": "A simple website to act as my github profile and resume/portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com:LaOwlLol/laowllol.github.io.git"
+  },
+  "author": "Nate Gillard",
+  "license": "MIT",
+  "dependencies": {
+    "html5-boilerplate": "^8.0.0",
+    "semantic-ui-css": "^2.4.1"
+  },
+  "devDependencies": {}
+}
